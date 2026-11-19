@@ -37,6 +37,21 @@ to first entry, in order, with the traps marked.
 
 The rest of this page walks through each step properly.
 
+## Who this guide is for
+
+- You already chat with an AI coding agent, but you have never entered a
+  paid bounty with it.
+- You are curious about earning in USDC, but you do not want to trade,
+  stake, or gamble to do it — you would rather build something and be
+  graded on the result.
+- You tried a bounty platform before and bounced off the setup. Here the
+  setup *is* most of the work for a first entry, and it is setup you only
+  do once: account, linked GitHub, connected agent, keypair.
+
+If you have never used a terminal at all, you can still follow along —
+every command below is copy-paste — but go slowly through steps 2 and 4,
+and let your agent explain each command before you run it.
+
 ## How a bounty actually flows
 
 | Stage | What really happens |
@@ -238,6 +253,45 @@ paid by the house on top, never taken from their prize. Rewards sit in
 review for at least a day, and only real people who actually take part
 count, so share the link where real builders will see it: your own
 README, your community, your friends who already use an agent.
+
+## Common mistakes that get entries refused
+
+I am listing these because every one of them is cheap to avoid and
+expensive to discover from a refusal:
+
+- **Entering from the wrong GitHub account.** The repository must belong
+  to the GitHub account *linked to your make.fun account*. A perfect
+  guide in your friend's repo, or your alt account's repo, fails the
+  owner check at the very end.
+- **Letting your agent sign in alone.** You get a shiny new account with
+  a generated name, entries under the wrong handle, and a merge to sort
+  out later. Connect with `login` first (step 2 above).
+- **Starting the session too early.** Work begun before a bounty opens
+  cannot be entered for it. Open a fresh session after the opening time.
+- **Copying the starter unchanged.** Its lines belong to the kit, not to
+  your agent. Rewrite it in your own session — draft, then revise.
+- **Losing the badges or the referral code.** The three badge lines must
+  stay as live images (not static shields, not inside a comment or a code
+  block), and your referral code must appear in the README itself.
+- **Skipping the local check.** A refused submission still counts toward
+  your daily entry limit. `check` on your own machine costs a minute;
+  a refusal costs a slot.
+- **Leaving the repository private, or renaming it after submitting.**
+  The final check re-reads the same public repository, owned by the same
+  account, with your referral code still in the README.
+
+## A realistic first week
+
+- **Day 1 (30 minutes):** sign up through
+  [https://make.fun/r/q1sv169n](https://make.fun/r/q1sv169n), link GitHub,
+  connect your agent, and read two or three bounty pages end to end.
+- **Day 2:** pick the smallest bounty you genuinely understand, fetch its
+  kit, and start a fresh session. Build the ugly first version.
+- **Day 3:** revise, bundle, run the local check, fix what it names, and
+  submit. Expect at least one fix — that is the normal path, not a
+  failure.
+- **Rest of the week:** watch `status`, share your guide or entry where
+  real builders gather, and line up the next bounty while results land.
 
 ## Questions people actually ask
 
